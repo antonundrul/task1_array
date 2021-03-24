@@ -1,0 +1,46 @@
+2021-03-24 23:09:36,745 INFO c.u.s.ArraySearchService [main] Минимальный элемент: 4.0
+2021-03-24 23:10:38,246 INFO c.u.s.ArraySearchService [main] Минимальный элемент: 4.0
+2021-03-24 23:17:22,300 INFO c.u.s.ArraySearchService [main] Максимальный элемент: 6.0
+2021-03-24 23:17:22,305 INFO c.u.s.ArraySearchService [main] Минимальный элемент: 4.0
+2021-03-24 23:17:22,305 INFO c.u.s.ArrayCalculateService [main] Сумма элементов: 15.0
+2021-03-24 23:17:22,305 INFO c.u.s.ArrayCalculateService [main] Сумма элементов: 15.0
+2021-03-24 23:17:22,306 INFO c.u.s.ArrayCalculateService [main] Среднее значение: 5.0
+2021-03-24 23:17:22,306 INFO c.u.s.ArrayCalculateService [main] Сумма элементов: 15.0
+2021-03-24 23:19:34,880 INFO c.u.s.ArraySearchService [main] Максимальный элемент: 6.0
+2021-03-24 23:19:34,884 INFO c.u.s.ArraySearchService [main] Минимальный элемент: 4.0
+2021-03-24 23:19:34,884 INFO c.u.s.ArrayCalculateService [main] Сумма элементов: 15.0
+2021-03-24 23:19:34,884 INFO c.u.s.ArrayCalculateService [main] Среднее значение: 5.0
+2021-03-24 23:28:02,943 INFO c.u.s.ArraySearchService [main] Максимальный элемент: 6.0
+2021-03-24 23:28:02,947 INFO c.u.s.ArraySearchService [main] Минимальный элемент: -5.0
+2021-03-24 23:28:02,947 INFO c.u.s.ArrayCalculateService [main] Сумма элементов: 5.0
+2021-03-24 23:28:02,948 INFO c.u.s.ArrayCalculateService [main] Среднее значение: 1.6666666666666667
+2021-03-24 23:28:02,948 INFO c.u.s.ArrayCalculateService [main] Количество положительных элементов: 2
+Количество отрицательных элементов: 1
+2021-03-24 23:41:38,985 INFO c.u.s.ArraySearchService [main] Максимальный элемент: 6.0
+2021-03-24 23:41:38,990 INFO c.u.s.ArraySearchService [main] Минимальный элемент: -5.0
+2021-03-24 23:41:38,990 INFO c.u.s.ArrayCalculateService [main] Сумма элементов: 5.0
+2021-03-24 23:41:38,990 INFO c.u.s.ArrayCalculateService [main] Среднее значение: 1.6666666666666667
+2021-03-24 23:41:38,990 INFO c.u.s.ArrayCalculateService [main] Количество положительных элементов: 2
+Количество отрицательных элементов: 1
+2021-03-24 23:41:38,991 INFO c.u.s.ArrayChangeService [main] com.undrul.entity.MyArray@21e360a
+2021-03-24 23:43:16,638 INFO c.u.s.ArraySearchService [main] Максимальный элемент: 6.0
+2021-03-24 23:43:16,641 INFO c.u.s.ArraySearchService [main] Минимальный элемент: -5.0
+2021-03-24 23:43:16,641 INFO c.u.s.ArrayCalculateService [main] Сумма элементов: 5.0
+2021-03-24 23:43:16,641 INFO c.u.s.ArrayCalculateService [main] Среднее значение: 1.6666666666666667
+2021-03-24 23:43:16,641 INFO c.u.s.ArrayCalculateService [main] Количество положительных элементов: 2
+Количество отрицательных элементов: 1
+2021-03-24 23:43:16,641 INFO c.u.s.ArrayChangeService [main] 20.0  
+2021-03-24 23:43:16,642 INFO c.u.s.ArrayChangeService [main] -5.0  
+2021-03-24 23:43:16,642 INFO c.u.s.ArrayChangeService [main] 30.0  
+2021-03-24 23:44:18,552 INFO c.u.s.ArraySearchService [main] Максимальный элемент: 6.0
+2021-03-24 23:44:18,556 INFO c.u.s.ArraySearchService [main] Минимальный элемент: -5.0
+2021-03-24 23:44:18,556 INFO c.u.s.ArrayCalculateService [main] Сумма элементов: 5.0
+2021-03-24 23:44:18,556 INFO c.u.s.ArrayCalculateService [main] Среднее значение: 1.6666666666666667
+2021-03-24 23:44:18,556 INFO c.u.s.ArrayCalculateService [main] Количество положительных элементов: 2
+Количество отрицательных элементов: 1
+2021-03-24 23:44:18,557 INFO c.u.s.ArrayChangeService [main] 20.0  
+2021-03-24 23:44:18,557 INFO c.u.s.ArrayChangeService [main] com.undrul.entity.MyArray@7c24b813
+2021-03-24 23:44:18,557 INFO c.u.s.ArrayChangeService [main] -5.0  
+2021-03-24 23:44:18,557 INFO c.u.s.ArrayChangeService [main] com.undrul.entity.MyArray@7c24b813
+2021-03-24 23:44:18,557 INFO c.u.s.ArrayChangeService [main] 30.0  
+2021-03-24 23:44:18,557 INFO c.u.s.ArrayChangeService [main] com.undrul.entity.MyArray@7c24b813

@@ -1,27 +1,31 @@
 package com;
 
-import com.undrul.entity.MyArray;
-import com.undrul.service.ArrayCalculateService;
-import com.undrul.service.ArrayChangeService;
-import com.undrul.service.ArraySearchService;
+import com.undrul.task1.entity.CustomArray;
+import com.undrul.task1.service.ArrayCalculateService;
+import com.undrul.task1.service.ArrayChangeService;
+import com.undrul.task1.service.ArraySearchService;
+import com.undrul.task1.service.ArraySortService;
 
 
 public class App {
     public static void main( String[] args ) {
 
-        double[] arr = {4,-5,6};
-        MyArray mas = new MyArray();
-        mas.setArr(arr);
+        double[] array = {4,-5,6};
+        CustomArray mas = new CustomArray(array);
 
-        ArraySearchService search = new ArraySearchService(mas);
-        ArrayCalculateService calculate = new ArrayCalculateService(mas);
-        ArrayChangeService change = new ArrayChangeService(mas);
-        search.searchMax();
-        search.searchMin();
-        calculate.calculateSum();
-        calculate.calculateAverageValue();
-        calculate.negativePositive();
-        change.elementReplacement();
+        ArraySearchService.searchMax(mas);
+        ArraySearchService.searchMin(mas);
+        ArrayCalculateService.calculateSum(mas);
+        ArrayCalculateService.calculateAverageValue(mas);
+        ArrayCalculateService.negativePositive(mas);
+        ArrayChangeService.elementReplacement(mas);
+
+        ArraySortService.bubbleSort(mas);
+
+        double[] x = { 8, 0, 4, 7, 3, 7, 10, 12, -3 };
+        CustomArray x1 = new CustomArray(x);
+         ArraySortService.shellSort(x1);
+         x1.printArray();
 
     }
 }

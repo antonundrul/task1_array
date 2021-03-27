@@ -1,16 +1,23 @@
 package com.undrul.task1.service;
 
 import com.undrul.task1.entity.CustomArray;
+import com.undrul.task1.exception.ArrayException;
+import com.undrul.task1.service.impl.ArrayCalculateInterface;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ArrayCalculateService {
+public class ArrayCalculateService implements ArrayCalculateInterface {
     static Logger logger = LogManager.getLogger();
 
     public ArrayCalculateService() {
     }
 
-    public static double calculateAverageValue(CustomArray array) {
+    @Override
+    public double calculateAverageValue(CustomArray array) throws ArrayException {
+        if (array.getArray().length == 0) {
+            throw new ArrayException("Array is empty");
+        }
+
         double average = 0;
 
         for (int i = 0; i < array.getArray().length; i++) {
@@ -18,23 +25,32 @@ public class ArrayCalculateService {
         }
         average /= array.getArray().length;
 
-        logger.info("Среднее значение: " + average);
+        logger.info("Average value: " + average);
         return average;
     }
 
-    public static double calculateSum(CustomArray array) {
+    @Override
+    public int calculateSum(CustomArray array) throws ArrayException {
+        if (array.getArray().length == 0) {
+            throw new ArrayException("Array is empty");
+        }
 
-        double sum = 0;
+        int sum = 0;
 
         for (int i = 0; i < array.getArray().length; i++) {
             sum += array.getArray()[i];
         }
 
-        logger.info("Сумма элементов: " + sum);
+        logger.info("Sum of elements: " + sum);
         return sum;
     }
 
-    public static void negativePositive(CustomArray array) {
+    @Override
+    public void negativePositive(CustomArray array) throws ArrayException {
+        if (array.getArray().length == 0) {
+            throw new ArrayException("Array is empty");
+        }
+
         int negative = 0, positive = 0;
         for (int i = 0; i < array.getArray().length; i++) {
             if (array.getArray()[i] < 0) {
@@ -43,8 +59,8 @@ public class ArrayCalculateService {
                 positive++;
             }
         }
-        logger.info("Количество положительных элементов: " + positive + "\n" +
-                "Количество отрицательных элементов: " + negative);
+        logger.info("Amount of positive elements: " + positive + "\n" +
+                "Amount of negative elements: " + negative);
     }
 }
 

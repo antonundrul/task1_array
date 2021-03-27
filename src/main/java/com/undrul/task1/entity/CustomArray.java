@@ -6,20 +6,20 @@ import org.apache.logging.log4j.Logger;
 public class CustomArray {
 
     static Logger logger = LogManager.getLogger();
-    private double[] array;
+    private int[] array;
 
     public CustomArray() {
     }
 
-    public CustomArray(double[] array) {
+    public CustomArray(int[] array) {
         this.array = array;
     }
 
-    public double[] getArray() {
+    public int[] getArray() {
         return array;
     }
 
-    public void setArray(double[] array) {
+    public void setArray(int[] array) {
         this.array = array;
     }
 

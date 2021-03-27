@@ -1,20 +1,26 @@
 package com.undrul.task1.service;
 
 import com.undrul.task1.entity.CustomArray;
+import com.undrul.task1.exception.ArrayException;
+import com.undrul.task1.service.impl.ArraySortInterface;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ArraySortService {
+public class ArraySortService implements ArraySortInterface {
     static Logger logger = LogManager.getLogger();
 
     public ArraySortService() {
     }
 
-    public static void bubbleSort(CustomArray array) {
+    @Override
+    public void bubbleSort(CustomArray array) throws ArrayException {
+        if (array.getArray().length == 0) {
+            throw new ArrayException("Array is empty");
+        }
         for (int out = array.getArray().length - 1; out >= 1; out--) {
             for (int in = 0; in < out; in++) {
                 if (array.getArray()[in] > array.getArray()[in + 1]) {
-                    double temp = array.getArray()[in];
+                    int temp = array.getArray()[in];
                     array.getArray()[in] = array.getArray()[in + 1];
                     array.getArray()[in + 1] = temp;
                 }
@@ -22,17 +28,18 @@ public class ArraySortService {
         }
     }
 
-    public static void quickSort(CustomArray array, int low, int high) {
+    @Override
+    public void quickSort(CustomArray array, int low, int high) throws ArrayException {
         if (array.getArray().length == 0) {
-            return;//завершить выполнение если длина массива равна 0
+            throw new ArrayException("Array is empty");
         }
 
         if (low >= high) {
-            return;//завершить выполнение если уже нечего делить
+            throw new ArrayException("low >= high");
         }
         // выбрать опорный элемент
         int middle = low + (high - low) / 2;
-        double opora = array.getArray()[(int) middle];
+        int opora = array.getArray()[(int) middle];
 
         // разделить на подмассивы, который больше и меньше опорного элемента
         int i = low, j = high;
@@ -46,7 +53,7 @@ public class ArraySortService {
             }
 
             if (i <= j) {//меняем местами
-                double temp = array.getArray()[i];
+                int temp = array.getArray()[i];
                 array.getArray()[i] = array.getArray()[j];
                 array.getArray()[j] = temp;
                 i++;
@@ -64,7 +71,12 @@ public class ArraySortService {
         }
     }
 
-    public static void shellSort(CustomArray array) {
+    @Override
+    public void shellSort(CustomArray array) throws ArrayException {
+        if (array.getArray().length == 0) {
+            throw new ArrayException("Array is empty");
+        }
+
         int gap = array.getArray().length / 2;
 // Пока разница между элементами есть
         while (gap >= 1) {
@@ -73,7 +85,7 @@ public class ArraySortService {
                 // между ним и элементом до него не будет нужного промежутка
                 for (int c = right - gap; c >= 0; c -= gap) {
                     if (array.getArray()[c] > array.getArray()[c + gap]) {
-                        double temp = array.getArray()[c];
+                        int temp = array.getArray()[c];
                         array.getArray()[c] = array.getArray()[c + gap];
                         array.getArray()[c + gap] = temp;
                     }
@@ -83,6 +95,5 @@ public class ArraySortService {
             gap = gap / 2;
         }
     }
-
 
 }

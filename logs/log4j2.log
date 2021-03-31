@@ -1,231 +1,41 @@
-2021-03-30 19:26:04,897 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 5.333333333333333
-2021-03-30 19:26:04,912 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 48
-2021-03-30 19:26:04,912 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 8
+2021-03-31 22:54:35,347 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 5.333333333333333
+2021-03-31 22:54:35,361 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 48
+2021-03-31 22:54:35,361 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 8
 Amount of negative elements: 1
-2021-03-30 19:26:04,913 INFO c.u.t.s.i.ArraySearchService [main] Max element: 12
-2021-03-30 19:26:04,913 INFO c.u.t.s.i.ArraySearchService [main] Min element: -3
-2021-03-30 19:26:04,914 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:04,914 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:04,915 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:04,915 INFO c.u.t.e.CustomArray [main] 4
-2021-03-30 19:26:04,915 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:04,915 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:04,915 INFO c.u.t.e.CustomArray [main] 8
-2021-03-30 19:26:04,915 INFO c.u.t.e.CustomArray [main] 10
-2021-03-30 19:26:04,915 INFO c.u.t.e.CustomArray [main] 12
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:04,916 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:04,917 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:04,917 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:26:04,917 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:26:04,917 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:26:04,917 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:26:23,296 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 5.333333333333333
-2021-03-30 19:26:23,301 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 48
-2021-03-30 19:26:23,301 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 8
+2021-03-31 22:54:35,361 INFO c.u.t.s.i.ArraySearchService [main] Max element: 12
+2021-03-31 22:54:35,363 INFO c.u.t.s.i.ArraySearchService [main] Min element: -3
+2021-03-31 22:54:35,364 INFO c.u.t.e.CustomArray [main] -3
+2021-03-31 22:54:35,364 INFO c.u.t.e.CustomArray [main] 0
+2021-03-31 22:54:35,365 INFO c.u.t.e.CustomArray [main] 3
+2021-03-31 22:54:35,365 INFO c.u.t.e.CustomArray [main] 4
+2021-03-31 22:54:35,365 INFO c.u.t.e.CustomArray [main] 7
+2021-03-31 22:54:35,365 INFO c.u.t.e.CustomArray [main] 7
+2021-03-31 22:54:35,365 INFO c.u.t.e.CustomArray [main] 8
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 10
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 12
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] -3
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 0
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 3
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 20
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 7
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 7
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 40
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 50
+2021-03-31 22:54:35,366 INFO c.u.t.e.CustomArray [main] 60
+2021-03-31 22:54:35,367 INFO c.u.t.e.CustomArray [main] -3
+2021-03-31 22:54:35,367 INFO c.u.t.e.CustomArray [main] 0
+2021-03-31 22:54:35,367 INFO c.u.t.e.CustomArray [main] 3
+2021-03-31 22:54:35,367 INFO c.u.t.e.CustomArray [main] 7
+2021-03-31 22:54:35,367 INFO c.u.t.e.CustomArray [main] 7
+2021-03-31 22:54:35,367 INFO c.u.t.e.CustomArray [main] 20
+2021-03-31 22:54:35,367 INFO c.u.t.e.CustomArray [main] 40
+2021-03-31 22:54:35,367 INFO c.u.t.e.CustomArray [main] 50
+2021-03-31 22:54:35,368 INFO c.u.t.e.CustomArray [main] 60
+2021-03-31 23:34:08,344 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 7
 Amount of negative elements: 1
-2021-03-30 19:26:23,301 INFO c.u.t.s.i.ArraySearchService [main] Max element: 12
-2021-03-30 19:26:23,302 INFO c.u.t.s.i.ArraySearchService [main] Min element: -3
-2021-03-30 19:26:23,303 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:23,305 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:23,306 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:23,306 INFO c.u.t.e.CustomArray [main] 4
-2021-03-30 19:26:23,306 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:23,306 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:23,306 INFO c.u.t.e.CustomArray [main] 8
-2021-03-30 19:26:23,306 INFO c.u.t.e.CustomArray [main] 10
-2021-03-30 19:26:23,306 INFO c.u.t.e.CustomArray [main] 12
-2021-03-30 19:26:23,307 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:23,307 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:23,307 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:23,307 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:26:23,307 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:23,307 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:23,307 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:26:23,307 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:26:23,308 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:26:23,308 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:23,308 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:23,308 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:23,308 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:23,308 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:23,308 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:26:23,308 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:26:23,309 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:26:23,309 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:26:42,788 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 5.333333333333333
-2021-03-30 19:26:42,791 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 48
-2021-03-30 19:26:42,792 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 8
+2021-03-31 23:43:27,113 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 3
 Amount of negative elements: 1
-2021-03-30 19:26:42,792 INFO c.u.t.s.i.ArraySearchService [main] Max element: 12
-2021-03-30 19:26:42,792 INFO c.u.t.s.i.ArraySearchService [main] Min element: -3
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 4
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 8
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 10
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 12
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:42,793 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:26:42,794 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:42,795 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:26:42,795 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:26:42,795 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:26:42,795 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:26:42,795 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:47:12,554 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 5.333333333333333
-2021-03-30 19:47:12,557 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 48
-2021-03-30 19:47:12,557 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 8
-Amount of negative elements: 1
-2021-03-30 19:47:12,558 INFO c.u.t.s.i.ArraySearchService [main] Max element: 12
-2021-03-30 19:47:12,558 INFO c.u.t.s.i.ArraySearchService [main] Min element: -3
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] 4
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] 8
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] 10
-2021-03-30 19:47:12,559 INFO c.u.t.e.CustomArray [main] 12
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:47:12,560 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:47:12,561 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:47:12,561 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:47:12,561 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:47:12,561 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:47:12,561 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:47:12,561 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:47:12,561 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:47:12,562 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:47:12,562 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:48:45,863 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 5.333333333333333
-2021-03-30 19:48:45,867 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 48
-2021-03-30 19:48:45,867 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 8
-Amount of negative elements: 1
-2021-03-30 19:48:45,868 INFO c.u.t.s.i.ArraySearchService [main] Max element: 12
-2021-03-30 19:48:45,868 INFO c.u.t.s.i.ArraySearchService [main] Min element: -3
-2021-03-30 19:48:45,869 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:48:45,869 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:48:45,869 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:48:45,870 INFO c.u.t.e.CustomArray [main] 4
-2021-03-30 19:48:45,870 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:48:45,870 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:48:45,870 INFO c.u.t.e.CustomArray [main] 8
-2021-03-30 19:48:45,871 INFO c.u.t.e.CustomArray [main] 10
-2021-03-30 19:48:45,871 INFO c.u.t.e.CustomArray [main] 12
-2021-03-30 19:48:45,871 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:48:45,871 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:48:45,871 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:48:45,871 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:48:45,872 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:48:45,873 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:48:45,873 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:48:45,873 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:48:45,873 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:48:45,873 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:48:45,874 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:48:45,874 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:48:45,875 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:48:45,875 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:48:45,876 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:48:45,876 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:48:45,878 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:48:45,878 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:49:26,997 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 5.333333333333333
-2021-03-30 19:49:27,000 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 48
-2021-03-30 19:49:27,000 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 8
-Amount of negative elements: 1
-2021-03-30 19:49:27,000 INFO c.u.t.s.i.ArraySearchService [main] Max element: 12
-2021-03-30 19:49:27,001 INFO c.u.t.s.i.ArraySearchService [main] Min element: -3
-2021-03-30 19:49:27,001 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 4
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 8
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 10
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 12
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:49:27,002 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:49:27,003 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:49:27,003 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:49:27,003 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:49:27,003 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 19:49:27,003 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 19:49:27,003 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 19:49:27,003 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 19:49:27,003 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:49:27,004 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 19:49:27,004 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 19:49:27,004 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 19:49:27,004 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 19:49:27,004 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 20:37:15,711 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 5.333333333333333
-2021-03-30 20:37:15,716 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 48
-2021-03-30 20:37:15,717 INFO c.u.t.s.i.ArrayCalculateService [main] Amount of positive elements: 8
-Amount of negative elements: 1
-2021-03-30 20:37:15,718 INFO c.u.t.s.i.ArraySearchService [main] Max element: 12
-2021-03-30 20:37:15,719 INFO c.u.t.s.i.ArraySearchService [main] Min element: -3
-2021-03-30 20:37:15,720 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 20:37:15,721 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 20:37:15,721 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 20:37:15,721 INFO c.u.t.e.CustomArray [main] 4
-2021-03-30 20:37:15,721 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 20:37:15,722 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 20:37:15,722 INFO c.u.t.e.CustomArray [main] 8
-2021-03-30 20:37:15,722 INFO c.u.t.e.CustomArray [main] 10
-2021-03-30 20:37:15,722 INFO c.u.t.e.CustomArray [main] 12
-2021-03-30 20:37:15,722 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 20:37:15,723 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 20:37:15,723 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 20:37:15,723 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 20:37:15,723 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 20:37:15,723 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 20:37:15,723 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 20:37:15,724 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 20:37:15,724 INFO c.u.t.e.CustomArray [main] 60
-2021-03-30 20:37:15,724 INFO c.u.t.e.CustomArray [main] -3
-2021-03-30 20:37:15,725 INFO c.u.t.e.CustomArray [main] 0
-2021-03-30 20:37:15,725 INFO c.u.t.e.CustomArray [main] 3
-2021-03-30 20:37:15,725 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 20:37:15,725 INFO c.u.t.e.CustomArray [main] 7
-2021-03-30 20:37:15,725 INFO c.u.t.e.CustomArray [main] 20
-2021-03-30 20:37:15,726 INFO c.u.t.e.CustomArray [main] 40
-2021-03-30 20:37:15,726 INFO c.u.t.e.CustomArray [main] 50
-2021-03-30 20:37:15,726 INFO c.u.t.e.CustomArray [main] 60
+2021-03-31 23:43:27,121 INFO c.u.t.s.i.ArrayCalculateService [main] Average value: 2.75
+2021-03-31 23:43:27,129 INFO c.u.t.s.i.ArrayCalculateService [main] Sum of elements: 11
+2021-03-31 23:43:27,130 INFO c.u.t.s.i.ArraySearchService [main] Max element: 13
+2021-03-31 23:43:27,130 INFO c.u.t.s.i.ArraySearchService [main] Min element: -5

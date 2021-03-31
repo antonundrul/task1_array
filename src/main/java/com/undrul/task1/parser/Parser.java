@@ -15,8 +15,9 @@ public class Parser {
                 for(int j=0; j< dataFromFile.size();j++){
                     intArray[j] = Integer.parseInt(array[j]);
                 }
+                break;
             }
-            break;
+
         }
 
         return intArray;

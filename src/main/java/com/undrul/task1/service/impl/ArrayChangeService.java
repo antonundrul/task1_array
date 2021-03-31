@@ -1,8 +1,8 @@
-package com.undrul.task1.service;
+package com.undrul.task1.service.impl;
 
 import com.undrul.task1.entity.CustomArray;
 import com.undrul.task1.exception.ArrayException;
-import com.undrul.task1.service.impl.ArrayChangeInterface;
+import com.undrul.task1.service.ArrayChangeInterface;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

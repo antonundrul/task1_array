@@ -2,10 +2,14 @@ package com;
 
 import com.undrul.task1.entity.CustomArray;
 import com.undrul.task1.exception.ArrayException;
-import com.undrul.task1.service.ArrayCalculateService;
-import com.undrul.task1.service.ArrayChangeService;
-import com.undrul.task1.service.ArraySearchService;
-import com.undrul.task1.service.ArraySortService;
+import com.undrul.task1.reader.Reader;
+import com.undrul.task1.service.impl.ArrayCalculateService;
+import com.undrul.task1.service.impl.ArrayChangeService;
+import com.undrul.task1.service.impl.ArraySearchService;
+import com.undrul.task1.service.impl.ArraySortService;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class App {
@@ -40,10 +44,15 @@ public class App {
             e.printStackTrace();
         }
 
-       /*double[] x = { 8, 0, 4, 7, 3, 7, 10, 12, -3 };
-        CustomArray x1 = new CustomArray(x);
-         //ArraySortService.shellSort(x1);
-         x1.printArray();*/
+        Reader reader = new Reader();
+        try {
+            ArrayList<String> list = reader.readFile("C:\\epam\\task1_array\\src\\main\\resources\\data\\data.txt");
+            System.out.println(list);
+        } catch (ArrayException e) {
+            e.printStackTrace();
+        }
+
+
 
     }
 }

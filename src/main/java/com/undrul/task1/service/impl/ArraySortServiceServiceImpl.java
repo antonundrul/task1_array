@@ -14,6 +14,7 @@ public class ArraySortServiceServiceImpl implements ArraySortService {
 
     @Override
     public void bubbleSort(CustomArray array) throws ArrayException {
+        logger.info("Method to sort array by bubbleSort start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -30,6 +31,7 @@ public class ArraySortServiceServiceImpl implements ArraySortService {
 
     @Override
     public void quickSort(CustomArray array, int low, int high) throws ArrayException {
+        logger.info("Method to sort array by quickSort start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -70,6 +72,7 @@ public class ArraySortServiceServiceImpl implements ArraySortService {
 
     @Override
     public void shellSort(CustomArray array) throws ArrayException {
+        logger.info("Method to sort array by shellSort start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }

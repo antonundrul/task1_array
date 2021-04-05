@@ -2,16 +2,21 @@ package com.undrul.task1.reader.impl;
 
 import com.undrul.task1.exception.ArrayException;
 import com.undrul.task1.reader.DataReader;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.*;
 import java.util.ArrayList;
 
 public class DataReaderImpl implements DataReader {
 
+    static Logger logger = LogManager.getLogger();
+
     @Override
     public ArrayList<String> readDataFromFile(String path) throws ArrayException {
-        ArrayList<String> dataFromFile = new ArrayList<>();
+        logger.info("Method to read data from file started");
 
+        ArrayList<String> dataFromFile = new ArrayList<>();
 
         try {
             File file = new File(path);
@@ -29,6 +34,7 @@ public class DataReaderImpl implements DataReader {
             throw new ArrayException("File is not found", e);
         }
 
+        logger.info("data from file read");
         return dataFromFile;
 
     }

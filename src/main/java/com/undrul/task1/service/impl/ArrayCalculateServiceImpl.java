@@ -16,6 +16,8 @@ public class ArrayCalculateServiceImpl implements ArrayCalculateService {
 
     @Override
     public double calculateAverageValue(CustomArray array) throws ArrayException {
+
+        logger.info("Method to calculate average value start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -33,6 +35,7 @@ public class ArrayCalculateServiceImpl implements ArrayCalculateService {
 
     @Override
     public double calculateAverageValueStream(CustomArray array) throws ArrayException {
+        logger.info("Method to calculate average value by IntStream start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -49,6 +52,7 @@ public class ArrayCalculateServiceImpl implements ArrayCalculateService {
 
     @Override
     public int calculateSum(CustomArray array) throws ArrayException {
+        logger.info("Method to calculate sum of array start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -65,6 +69,7 @@ public class ArrayCalculateServiceImpl implements ArrayCalculateService {
 
     @Override
     public int calculateSumStream(CustomArray array) throws ArrayException {
+        logger.info("Method to calculate sum of array by IntStream start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -79,6 +84,7 @@ public class ArrayCalculateServiceImpl implements ArrayCalculateService {
 
     @Override
     public int countNegativeElements(CustomArray array) throws ArrayException {
+        logger.info("Method to count amount of negative elements in array start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -95,6 +101,7 @@ public class ArrayCalculateServiceImpl implements ArrayCalculateService {
 
     @Override
     public int countPositiveElements(CustomArray array) throws ArrayException {
+        logger.info("Method to count amount of positive elements in array start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -112,6 +119,8 @@ public class ArrayCalculateServiceImpl implements ArrayCalculateService {
     @Override
     public int countNegativeElementsStream(CustomArray array) throws ArrayException {
 
+        logger.info("Method to count amount of negative elements in array by IntStream start");
+
         int negative = (int) IntStream.of(array.getArray())
                 .filter(num -> num < 0)
                 .count();
@@ -123,6 +132,8 @@ public class ArrayCalculateServiceImpl implements ArrayCalculateService {
 
     @Override
     public int countPositiveElementsStream(CustomArray array) throws ArrayException {
+
+        logger.info("Method to count amount of positive elements in array by IntStream start");
 
         int positive = (int) IntStream
                 .of(array.getArray())

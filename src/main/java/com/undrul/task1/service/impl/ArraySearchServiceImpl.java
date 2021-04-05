@@ -17,6 +17,7 @@ public class ArraySearchServiceImpl implements ArraySearchService {
 
     @Override
     public int searchMin(CustomArray array) throws ArrayException {
+        logger.info("Method to find min element start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -35,6 +36,7 @@ public class ArraySearchServiceImpl implements ArraySearchService {
 
     @Override
     public int findMinElementStream(CustomArray array) throws ArrayException {
+        logger.info("Method to find min element by IntStream start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -51,6 +53,7 @@ public class ArraySearchServiceImpl implements ArraySearchService {
 
     @Override
     public int searchMax(CustomArray array) throws ArrayException {
+        logger.info("Method to find max element start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -67,6 +70,7 @@ public class ArraySearchServiceImpl implements ArraySearchService {
 
     @Override
     public int findMaxElementStream(CustomArray array) throws ArrayException {
+        logger.info("Method to find max element by IntStream start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }

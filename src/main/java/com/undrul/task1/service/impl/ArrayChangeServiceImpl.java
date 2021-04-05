@@ -14,6 +14,7 @@ public class ArrayChangeServiceImpl implements ArrayChangeService {
 
     @Override
     public void elementReplacement(CustomArray array) throws ArrayException {
+        logger.info("Method replace elements start");
         if (array.getArray().length == 0) {
             throw new ArrayException("Array is empty");
         }
@@ -24,6 +25,6 @@ public class ArrayChangeServiceImpl implements ArrayChangeService {
 
             }
         }
-
+        logger.info("elements are replaced");
     }
 }

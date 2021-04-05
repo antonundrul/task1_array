@@ -1,16 +1,13 @@
-package com;
+package com.undrul.task1.arrayMain;
 
-import com.undrul.task1.creator.ArrayCreator;
+import com.undrul.task1.creator.impl.ArrayCreatorImpl;
 import com.undrul.task1.entity.CustomArray;
 import com.undrul.task1.exception.ArrayException;
-import com.undrul.task1.parser.Parser;
-import com.undrul.task1.reader.Reader;
-import com.undrul.task1.service.impl.ArrayCalculateService;
-import com.undrul.task1.service.impl.ArrayChangeService;
-import com.undrul.task1.service.impl.ArraySearchService;
-import com.undrul.task1.service.impl.ArraySortService;
+import com.undrul.task1.parser.impl.ArrayParserImpl;
+import com.undrul.task1.reader.impl.DataReaderImpl;
+import com.undrul.task1.service.impl.ArrayCalculateServiceImpl;
+import com.undrul.task1.service.impl.ArraySearchServiceImpl;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 
@@ -20,10 +17,10 @@ public class App {
       /*  int[] array = {8, 0, 4, 7, 3, 7, 10, 12, -3};
         CustomArray mas = new CustomArray(array);
 
-        ArrayCalculateService calculate = new ArrayCalculateService();
-        ArrayChangeService change = new ArrayChangeService();
-        ArraySearchService search = new ArraySearchService();
-        ArraySortService sort = new ArraySortService();
+        ArrayCalculateServiceImpl calculate = new ArrayCalculateServiceImpl();
+        ArrayChangeServiceImpl change = new ArrayChangeServiceImpl();
+        ArraySearchServiceImpl search = new ArraySearchServiceImpl();
+        ArraySortServiceServiceImpl sort = new ArraySortServiceServiceImpl();
         try {
             calculate.calculateAverageValue(mas);
             calculate.calculateSum(mas);
@@ -47,22 +44,22 @@ public class App {
             e.printStackTrace();
         }
 */
-        Reader reader = new Reader();
-        Parser parser = new Parser();
-        ArrayCreator arrayCreator = new ArrayCreator();
+        DataReaderImpl dataReaderImpl = new DataReaderImpl();
+        ArrayParserImpl parser = new ArrayParserImpl();
+        ArrayCreatorImpl arrayCreatorImpl = new ArrayCreatorImpl();
         try {
-            ArrayList<String> list = reader.readFile("C:\\epam\\task1_array\\src\\main\\resources\\data\\data.txt");
+            ArrayList<String> list = dataReaderImpl.readDataFromFile("./src/main/resources/data/data.txt");
             System.out.println(list);
 
             int[] mas1 = parser.parseToIntArray(list);
 
-            CustomArray customArray  = arrayCreator.createArray(mas1);
+            CustomArray customArray  = arrayCreatorImpl.createArray(mas1);
 
 
-            ArrayCalculateService calculate1 = new ArrayCalculateService();
-            ArraySearchService search1 = new ArraySearchService();
+            ArrayCalculateServiceImpl calculate1 = new ArrayCalculateServiceImpl();
+            ArraySearchServiceImpl search1 = new ArraySearchServiceImpl();
 
-            calculate1.negativePositiveStream(customArray);
+           // calculate1.negativePositiveStream(customArray);
             calculate1.calculateAverageValueStream(customArray);
             calculate1.calculateSumStream(customArray);
 

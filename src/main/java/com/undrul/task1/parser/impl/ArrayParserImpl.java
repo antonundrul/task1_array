@@ -1,10 +1,10 @@
-package com.undrul.task1.parser;
+package com.undrul.task1.parser.impl;
 
 import com.undrul.task1.validator.ArrayValidator;
 
 import java.util.ArrayList;
 
-public class Parser {
+public class ArrayParserImpl {
 
     public int[] parseToIntArray(ArrayList<String> dataFromFile) {
         int[] intArray = null;

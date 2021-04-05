@@ -2,14 +2,14 @@ package com.undrul.task1.service.impl;
 
 import com.undrul.task1.entity.CustomArray;
 import com.undrul.task1.exception.ArrayException;
-import com.undrul.task1.service.ArrayChangeInterface;
+import com.undrul.task1.service.ArrayChangeService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ArrayChangeService implements ArrayChangeInterface {
+public class ArrayChangeServiceImpl implements ArrayChangeService {
     static Logger logger = LogManager.getLogger();
 
-    public ArrayChangeService() {
+    public ArrayChangeServiceImpl() {
     }
 
     @Override

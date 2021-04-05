@@ -2,14 +2,14 @@ package com.undrul.task1.service.impl;
 
 import com.undrul.task1.entity.CustomArray;
 import com.undrul.task1.exception.ArrayException;
-import com.undrul.task1.service.ArraySortInterface;
+import com.undrul.task1.service.ArraySortService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ArraySortService implements ArraySortInterface {
+public class ArraySortServiceServiceImpl implements ArraySortService {
     static Logger logger = LogManager.getLogger();
 
-    public ArraySortService() {
+    public ArraySortServiceServiceImpl() {
     }
 
     @Override
@@ -37,11 +37,9 @@ public class ArraySortService implements ArraySortInterface {
         if (low >= high) {
             throw new ArrayException("low >= high");
         }
-        // выбрать опорный элемент
         int middle = low + (high - low) / 2;
         int opora = array.getArray()[(int) middle];
 
-        // разделить на подмассивы, который больше и меньше опорного элемента
         int i = low, j = high;
         while (i <= j) {
             while (array.getArray()[i] < opora) {
@@ -52,7 +50,7 @@ public class ArraySortService implements ArraySortInterface {
                 j--;
             }
 
-            if (i <= j) {//меняем местами
+            if (i <= j) {
                 int temp = array.getArray()[i];
                 array.getArray()[i] = array.getArray()[j];
                 array.getArray()[j] = temp;
@@ -61,7 +59,6 @@ public class ArraySortService implements ArraySortInterface {
             }
         }
 
-        // вызов рекурсии для сортировки левой и правой части
         if (low < j) {
             quickSort(array, low, j);
         }
@@ -78,11 +75,8 @@ public class ArraySortService implements ArraySortInterface {
         }
 
         int gap = array.getArray().length / 2;
-// Пока разница между элементами есть
         while (gap >= 1) {
             for (int right = 0; right < array.getArray().length; right++) {
-                // Смещаем правый указатель, пока не сможем найти такой, что
-                // между ним и элементом до него не будет нужного промежутка
                 for (int c = right - gap; c >= 0; c -= gap) {
                     if (array.getArray()[c] > array.getArray()[c + gap]) {
                         int temp = array.getArray()[c];
@@ -91,7 +85,6 @@ public class ArraySortService implements ArraySortInterface {
                     }
                 }
             }
-            // Пересчитываем разрыв
             gap = gap / 2;
         }
     }

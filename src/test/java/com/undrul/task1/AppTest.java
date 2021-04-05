@@ -1,4 +1,4 @@
-package com;
+package com.undrul.task1;
 
 import static org.junit.Assert.assertTrue;
 

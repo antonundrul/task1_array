@@ -1,13 +1,17 @@
-package com.undrul.task1.reader;
+package com.undrul.task1.reader.impl;
 
 import com.undrul.task1.exception.ArrayException;
+import com.undrul.task1.reader.DataReader;
 
 import java.io.*;
 import java.util.ArrayList;
 
-public class Reader {
-    public ArrayList<String> readFile(String path) throws ArrayException {
+public class DataReaderImpl implements DataReader {
+
+    @Override
+    public ArrayList<String> readDataFromFile(String path) throws ArrayException {
         ArrayList<String> dataFromFile = new ArrayList<>();
+
 
         try {
             File file = new File(path);
@@ -15,6 +19,7 @@ public class Reader {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
             String line = bufferedReader.readLine();
+            
             dataFromFile.add(line);
             while (bufferedReader.ready()) {
                 line = bufferedReader.readLine();
